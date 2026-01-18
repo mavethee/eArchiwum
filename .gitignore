@@ -1,0 +1,117 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+out/
+
+# Electron
+*.asar
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+
+# Database & storage
+storage/
+backups/
+
+# Test results
+test-results/
+junit.xml
+coverage/
+
+# VSCode
+.vscode/
+
+# Playwright
+playwright-report/
+.playwright/
+
+# Misc
+*.swp
+*.swo
+
+# Docs (if deleted)
+docs/
+
+# Screenshots
+demo.gif
+screenshots/
+
+# Ignore generated files
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+
+# Ignore package locks if not used
+pnpm-lock.yaml
+
+# Electron Builder artifacts
+release/
+dist_electron/
+*.dmg
+*.exe
+*.AppImage
+*.deb
+*.rpm
+*.snap
+
+# Editor/IDE temp files
+.idea/
+.history/
+.cache/
+.eslintcache
+
+# System temp files
+.AppleDouble
+.LSOverride
+Icon?
+
+# Playwright temp
+playwright/.cache/
+
+# Test temp
+coverage-final.json
+
+# npm temp
+.npm/
+
+# Vite temp
+.vite/
+
+# Prettier temp
+.prettiercache
+
+# DODATKOWE: temp/log/IDE/system
+.env.test
+**/*.log
+**/.DS_Store
+*.iml
+workspace.xml
+*.sublime-workspace
+*.sublime-project
+**/.tmp/
+**/tmp/
+**/temp/
+resources/*.tmp
+build/*.tmp
+e2e/*.tmp
+storage/files/.tmp/
+.app-pid

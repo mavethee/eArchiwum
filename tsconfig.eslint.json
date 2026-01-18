@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "src/**/*",
+    "e2e/**/*",
+    "src/renderer/**/*",
+    "src/preload/**/*",
+    "src/preload/index.d.ts",
+    "playwright.config.ts",
+    "electron.vite.config.ts",
+    "run-migrations.js",
+    "*.ts",
+    "*.tsx",
+    "*.js"
+  ],
+  "files": [
+    "src/preload/index.d.ts"
+  ]
+}
